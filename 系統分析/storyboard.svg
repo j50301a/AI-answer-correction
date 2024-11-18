@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1100">
+    <!-- 背景 -->
+    <rect width="1200" height="1100" fill="#f5f5f5"/>
+    
+    <!-- 標題 -->
+    <text x="600" y="40" text-anchor="middle" font-size="24" fill="#333">AI自動批改系統界面分鏡板</text>
+    
+    <!-- 登入畫面 Frame -->
+    <rect x="50" y="80" width="260" height="380" fill="white" stroke="#333" stroke-width="2"/>
+    <text x="180" y="110" text-anchor="middle" font-weight="bold" fill="#333">1. 登入畫面</text>
+    
+    <!-- 登入表單 -->
+    <rect x="70" y="130" width="220" height="40" fill="#f8f8f8" stroke="#ccc"/>
+    <text x="80" y="155" fill="#666" font-size="14">帳號 [text, required]</text>
+    
+    <rect x="70" y="180" width="220" height="40" fill="#f8f8f8" stroke="#ccc"/>
+    <text x="80" y="205" fill="#666" font-size="14">密碼 [password, required]</text>
+    
+    <rect x="70" y="240" width="100" height="30" fill="#007bff" rx="4"/>
+    <text x="120" y="260" text-anchor="middle" fill="white" font-size="14">登入</text>
+    
+    <!-- 主畫面 Frame -->
+    <rect x="330" y="80" width="260" height="380" fill="white" stroke="#333" stroke-width="2"/>
+    <text x="460" y="110" text-anchor="middle" font-weight="bold" fill="#333">2. 主畫面</text>
+    
+    <!-- 功能選單 -->
+    <rect x="350" y="130" width="220" height="40" fill="#e9ecef" stroke="#ccc"/>
+    <text x="360" y="155" fill="#333" font-size="14">試卷管理</text>
+    
+    <rect x="350" y="180" width="220" height="40" fill="#e9ecef" stroke="#ccc"/>
+    <text x="360" y="205" fill="#333" font-size="14">批改作業</text>
+    
+    <rect x="350" y="230" width="220" height="40" fill="#e9ecef" stroke="#ccc"/>
+    <text x="360" y="255" fill="#333" font-size="14">成績報表</text>
+    
+    <!-- 批改畫面 Frame -->
+    <rect x="610" y="80" width="260" height="380" fill="white" stroke="#333" stroke-width="2"/>
+    <text x="740" y="110" text-anchor="middle" font-weight="bold" fill="#333">3. 批改畫面</text>
+    
+    <!-- 答案區域 -->
+    <rect x="630" y="130" width="220" height="100" fill="#f8f8f8" stroke="#ccc"/>
+    <text x="640" y="150" fill="#666" font-size="14">學生答案[text, readonly]</text>
+    
+    <!-- 評分區域 -->
+    <rect x="630" y="240" width="220" height="40" fill="#f8f8f8" stroke="#ccc"/>
+    <text x="640" y="265" fill="#666" font-size="14">分數[number, 0-100]</text>
+    
+    <rect x="630" y="290" width="220" height="60" fill="#f8f8f8" stroke="#ccc"/>
+    <text x="640" y="315" fill="#666" font-size="14">評語[text, optional]</text>
+    
+    <!-- 報表畫面 Frame -->
+    <rect x="890" y="80" width="260" height="380" fill="white" stroke="#333" stroke-width="2"/>
+    <text x="1020" y="110" text-anchor="middle" font-weight="bold" fill="#333">4. 報表畫面</text>
+    
+    <!-- 報表內容 -->
+    <rect x="910" y="130" width="220" height="280" fill="#f8f8f8" stroke="#ccc"/>
+    <text x="920" y="150" fill="#666" font-size="14">班級成績統計報表</text>
+    <line x1="910" y1="170" x2="1130" y2="170" stroke="#ccc"/>
+    <text x="920" y="190" fill="#666" font-size="12">平均分數：[number]</text>
+    <text x="920" y="210" fill="#666" font-size="12">及格率：[percentage]</text>
+    <text x="920" y="230" fill="#666" font-size="12">最高分：[number]</text>
+    <text x="920" y="250" fill="#666" font-size="12">最低分：[number]</text>
+    
+    <!-- 設定畫面 Frame -->
+    <rect x="50" y="480" width="260" height="380" fill="white" stroke="#333" stroke-width="2"/>
+    <text x="180" y="510" text-anchor="middle" font-weight="bold" fill="#333">5. 系統設定</text>
+    
+    <!-- 設定選項 -->
+    <rect x="70" y="530" width="220" height="40" fill="#f8f8f8" stroke="#ccc"/>
+    <text x="80" y="555" fill="#666" font-size="14">評分標準設定</text>
+    
+    <rect x="70" y="580" width="220" height="40" fill="#f8f8f8" stroke="#ccc"/>
+    <text x="80" y="605" fill="#666" font-size="14">題型配置</text>
+
+    <!-- 新增：試卷管理畫面 Frame -->
+    <rect x="330" y="480" width="540" height="380" fill="white" stroke="#333" stroke-width="2"/>
+    <text x="600" y="510" text-anchor="middle" font-weight="bold" fill="#333">6. 試卷管理畫面</text>
+    
+    <!-- 試卷列表區域 -->
+    <rect x="350" y="530" width="500" height="40" fill="#e9ecef" stroke="#ccc"/>
+    <text x="360" y="555" fill="#666" font-size="14">試卷列表</text>
+    
+    <!-- 題目編輯區域 -->
+    <rect x="350" y="580" width="500" height="120" fill="#f8f8f8" stroke="#ccc"/>
+    <text x="360" y="600" fill="#666" font-size="14">題目編輯區：</text>
+    <text x="360" y="620" fill="#666" font-size="12">- 題目內容 [text, required]</text>
+    <text x="360" y="640" fill="#666" font-size="12">- 標準答案 [text, required]</text>
+    <text x="360" y="660" fill="#666" font-size="12">- 配分 [number, 1-100]</text>
+    
+    <!-- 批次操作區域 -->
+    <rect x="350" y="710" width="500" height="120" fill="#f8f8f8" stroke="#ccc"/>
+    <text x="360" y="730" fill="#666" font-size="14">批次操作：</text>
+    <text x="360" y="750" fill="#666" font-size="12">- 送分設定 [checkbox]</text>
+    <text x="360" y="770" fill="#666" font-size="12">- 分數調整 [number, +/-]</text>
+    <text x="360" y="790" fill="#666" font-size="12">- 答案修正 [text]</text>
+    
+    <!-- 資料驗證規則說明 -->
+    <text x="890" y="500" fill="#333" font-size="16" font-weight="bold">資料驗證規則：</text>
+    <text x="890" y="530" fill="#666" font-size="14">1. 帳號：必填，長度6-20字元</text>
+    <text x="890" y="550" fill="#666" font-size="14">2. 密碼：必填，至少8字元</text>
+    <text x="890" y="570" fill="#666" font-size="14">3. 分數：必填，0-100的整數</text>
+    <text x="890" y="590" fill="#666" font-size="14">4. 評語：選填，最多200字</text>
+    <text x="890" y="610" fill="#666" font-size="14">5. 題目編輯：必填所有欄位</text>
+    <text x="890" y="630" fill="#666" font-size="14">6. 分數調整：可正負值</text>
+    
+    <!-- 功能說明 -->
+    <text x="890" y="670" fill="#333" font-size="16" font-weight="bold">新增功能說明：</text>
+    <text x="890" y="700" fill="#666" font-size="14">試卷管理功能：</text>
+    <text x="890" y="720" fill="#666" font-size="14">1. 題目批次編輯</text>
+    <text x="890" y="740" fill="#666" font-size="14">2. 答案批次修正</text>
+    <text x="890" y="760" fill="#666" font-size="14">3. 送分設定</text>
+    <text x="890" y="780" fill="#666" font-size="14">4. 分數批次調整</text>
+</svg>
