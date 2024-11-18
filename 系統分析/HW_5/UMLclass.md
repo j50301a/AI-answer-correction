@@ -1,4 +1,4 @@
-```
+```mermaid
 stateDiagram-v2
     [*] --> 登入系統
     登入系統 --> 驗證身份
